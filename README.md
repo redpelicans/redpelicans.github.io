@@ -1,15 +1,14 @@
 redpelicans.github.io
 =====================
 
-Website of redpelicans
-> [http://redpelicans.github.io/](http://redpelicans.github.io/)
+Website of redpelicans: [http://redpelicans.github.io/](http://redpelicans.github.io/)
 
 Usage
 ===
 
 Run `npm install -g grunt-cli bower` if not yet installed.
 
-The entry point is `/index.html` and all public resources are in `/dist`.
+The entry point is `/index.html` and all public resources are in `/dist`.  
 Run `grunt build` to update `/dist` (before pushing).
 
 In development, run `grunt serve`.
