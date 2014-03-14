@@ -2,6 +2,7 @@
 
 module.exports = {
   serve: [
-    'connect'
+    'clean:dev'
+  , 'connect'
   ]
 };
