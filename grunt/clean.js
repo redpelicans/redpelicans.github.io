@@ -2,8 +2,6 @@
 
 module.exports = {
   clean: {
-    dev: {
-      '.tmp'
-    }
+    dev: '.tmp'
   }
 };
