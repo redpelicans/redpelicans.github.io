@@ -8,7 +8,7 @@ The entry point is `/index.html` and all public resources are in `/dist`.
 Run `grunt build` to update `/dist` (before pushing).
 
 In development, run `grunt serve`.  
-(there are 2 environment variables, HOST & PORT, that can be used as follow `PORT=5000 grunt serve`)
+(HOST & PORT can be used as follow `PORT=5000 grunt serve`)
 
 Requirement
 ===
@@ -21,6 +21,6 @@ _[bower](http://bower.io/) is the package manager of the client-side application
 Installation
 ===
 ```bash
-npm install -g grunt-cli bower`
+npm install -g grunt-cli bower
 bower install
 ```
