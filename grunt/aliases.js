@@ -5,5 +5,6 @@ module.exports = {
     'clean:dev'
   , 'bower'
   , 'connect'
+  , 'watch'
   ]
 };
