@@ -4,6 +4,7 @@ module.exports = {
   watch: {
     scripts: {
       files: 'app/scripts/**/*.js'
+    , task: ['newer:jshint:dev']
     , options: {
         livereload: true // see connect task for livereload port
       }
