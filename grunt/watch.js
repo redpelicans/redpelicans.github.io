@@ -14,5 +14,6 @@ module.exports = {
     , options: {
         livereload: true // see connect task for livereload port
       }
+    }
   }
 };
