@@ -1,19 +1,14 @@
 'use strict';
 
 module.exports = {
-  watch: {
-    scripts: {
-      files: 'app/scripts/**/*.js'
-    , task: ['newer:jshint:dev']
-    , options: {
-        livereload: true // see connect task for livereload port
-      }
-    }
-  , styles: {
-      files: 'app/styles/**/*.css'
-    , options: {
-        livereload: true // see connect task for livereload port
-      }
-    }
+  options: {
+    livereload: true // see connect task for livereload port
+  }
+, scripts: {
+    files: 'app/scripts/**/*.js'
+  , tasks: ['newer:jshint:dev']
+  }
+, styles: {
+    files: 'app/styles/**/*.css'
   }
 };

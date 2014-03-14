@@ -1,8 +1,8 @@
 'use strict';
 
 module.exports = {
-  bower: {
-    src: 'index.html'
+  dev: {
+    html: 'index.html'
   , ignorePath: 'app/'
   }
 };
