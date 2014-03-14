@@ -11,7 +11,8 @@ Run `npm install -g grunt-cli bower` if not yet installed.
 The entry point is `/index.html` and all public resources are in `/dist`.  
 Run `grunt build` to update `/dist` (before pushing).
 
-In development, run `grunt serve`.
+In development, run `grunt serve`.  
+(there are 2 environment variables, HOST & PORT, that can be used as follow `PORT=5000 grunt serve`)
 
 Requirement
 ===
