@@ -1,13 +1,9 @@
 redpelicans.github.io
 =====================
-
 Website of redpelicans: [http://redpelicans.github.io/](http://redpelicans.github.io/)
 
 Usage
 ===
-
-Run `npm install -g grunt-cli bower` if not yet installed.
-
 The entry point is `/index.html` and all public resources are in `/dist`.  
 Run `grunt build` to update `/dist` (before pushing).
 
@@ -21,3 +17,10 @@ Requirement
 _npm is the package manager of grunt modules_  
 _[grunt-cli](https://github.com/gruntjs/grunt-cli) is the [grunt](http://gruntjs.com/)'s command line interface_  
 _[bower](http://bower.io/) is the package manager of the client-side application_
+
+Installation
+===
+```bash
+npm install -g grunt-cli bower`
+bower install
+```
