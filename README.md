@@ -7,6 +7,12 @@ Usage
 The entry point is `/index.html` and all public resources are in `/dist`.  
 Run `grunt build` to update `/dist` (before pushing).
 
+You may need to update modules:
+```bash
+npm install
+bower install
+```
+
 In development, run `grunt serve`.  
 (HOST & PORT can be used as follow `PORT=5000 grunt serve`)
 
@@ -22,5 +28,4 @@ Installation
 ===
 ```bash
 npm install -g grunt-cli bower
-bower install
 ```
