@@ -3,8 +3,8 @@
 module.exports = {
   serve: [
     'clean:dev'
-  , 'bower-install'
-  , 'connect'
+  , 'bower-install:dev'
+  , 'connect:dev'
   , 'watch'
   ]
 };
