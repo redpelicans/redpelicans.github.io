@@ -13,7 +13,7 @@ app.config(function($routeProvider, $locationProvider, $translateProvider) {
   $locationProvider.html5Mode(true);
 
   $translateProvider
-    .useStaticFilesLoader({ prefix: 'i18n/', suffix: '.json' })
+    .useStaticFilesLoader({ prefix: 'app/i18n/', suffix: '.json' })
     .preferredLanguage('en') // avoid FOUC
     .fallbackLanguage('en')
     .useCookieStorage();
