@@ -13,12 +13,12 @@
         <link rel="stylesheet" href="bower_modules/bootstrap/dist/css/bootstrap.css" />
         <!-- endbower -->
     </head>
-    <body>
+    <body ng-app="app">
         <!--[if lt IE 8]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+        <div class="container" ng-view=""></div>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
@@ -34,6 +34,10 @@
         <script src="bower_modules/modernizr/modernizr.js"></script>
         <script src="bower_modules/jquery/dist/jquery.js"></script>
         <script src="bower_modules/bootstrap/dist/js/bootstrap.js"></script>
+        <script src="bower_modules/angular/angular.js"></script>
+        <script src="bower_modules/angular-route/angular-route.js"></script>
         <!-- endbower -->
+
+        <script src="app/scripts/app.js"></script>
     </body>
 </html>

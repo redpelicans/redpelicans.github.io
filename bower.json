@@ -5,5 +5,7 @@
     "jquery": "~2.1.0"
   , "modernizr": "~2.7.2"
   , "bootstrap": "~3.0.3"
+  , "angular": "1.2.6"
+  , "angular-route": "1.2.6"
   }
 }
