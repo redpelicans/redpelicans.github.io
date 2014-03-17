@@ -2,5 +2,8 @@
   "name": "redpelicans.github.io"
 , "version": "0.0.1"
 , "dependencies": {
+    "jquery": "~2.1.0"
+  , "modernizr": "~2.7.2"
+  , "bootstrap": "~3.0.3"
   }
 }
