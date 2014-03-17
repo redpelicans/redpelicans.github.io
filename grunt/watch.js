@@ -11,4 +11,7 @@ module.exports = {
 , styles: {
     files: 'app/styles/**/*.css'
   }
+, index: {
+    files: 'index.html'
+  }
 };
