@@ -2,7 +2,7 @@
 
 var app = angular.module('app', ['ngRoute', 'pascalprecht.translate']);
 
-app.config(function($routeProvider, $locationProvider) {
+app.config(function($routeProvider, $locationProvider, $translateProvider) {
   $routeProvider
     .when('/', { templateUrl: 'app/views/main.html' })
     .otherwise({ redirectTo: '/' });
