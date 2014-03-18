@@ -1,5 +1,5 @@
 'use strict';
 
 module.exports = {
-  dev: '.tmp'
+  dev: ['.tmp', 'app/styles/main.css']
 };

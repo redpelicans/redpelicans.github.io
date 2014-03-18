@@ -9,7 +9,11 @@ module.exports = {
   , tasks: ['newer:jshint:dev']
   }
 , styles: {
-    files: 'app/styles/**/*.css'
+    files: 'app/styles/**/*.less'
+  , tasks: ['newer:less:dev']
+  }
+, views: {
+    files: 'app/views/**/*.html'
   }
 , index: {
     files: 'index.html'
