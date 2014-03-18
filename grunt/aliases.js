@@ -4,8 +4,7 @@ module.exports = {
   serve: [
     'clean:dev'
   , 'bower-install:dev'
-  , 'less:dev'
-  , 'copy:dev'
+  , 'less:dist'
   , 'connect:dev'
   , 'watch'
   ]

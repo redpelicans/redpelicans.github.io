@@ -1,12 +1,12 @@
 'use strict';
 
 module.exports = {
-  dev: {
+  dist: {
     files: [{
       expand: true
     , cwd: 'app/styles/'
     , src: '**/*.less'
-    , dest: '.tmp/styles'
+    , dest: 'dist/styles'
     , ext: '.css'
     }]
   }
