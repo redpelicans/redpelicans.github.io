@@ -8,16 +8,20 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <base href="/">
+
     <link rel="stylesheet" href="styles/1d7769e0.vendor.css"/>
 
-    <link rel="stylesheet" href="styles/0694f7a3.main.css"/>
+    <link rel="stylesheet" href="styles/be24ed5a.main.css"/>
   </head>
   <body ng-app="rpApp">
     <!--[if lt IE 8]>
         <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-    <div ng-view=""></div>
+    <div ng-include="'views/header.html'"></div>
+    <ng-view></ng-view>
+    <div ng-include="'views/footer.html'"></div>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
@@ -31,6 +35,6 @@
 
     <script src="scripts/ec2294bc.vendor.js"></script>
 
-    <script src="scripts/4d2ae256.app.js"></script>
+    <script src="scripts/e0895257.app.js"></script>
   </body>
 </html>
