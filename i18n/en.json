@@ -1,63 +1,92 @@
 {
   "REDPELICANS": "redpelicans",
+  "CONTACTUS": "Contact us",
+  "EMAILUS": "Email us at contact@redplicans.com",
+  "TALKUS": "Want to talk to us about your project?",
+  "MENU": {
+    "HOME": "Home",
+    "SERVICES": "Services",
+    "STORIES": "Stories",
+    "LAB": "Lab"
+  },
   "FOOTER": {
     "COPYRIGHT": "Copyright &copy;2014",
     "RIGHTS": "All rights reserved"
   },
-  "GENERAL": {
-    "CATCH": "Full Stack Javascript Company",
-    "WAR": "&mdash;&nbsp;We are redpelicans.",
-    "MISSION": "We are dedicated to helping businesses succeed with full stack javascript through strategic consulting and support.",
-    "HOME": "Home",
-    "SERVICES": "Services",
-    "STORIES": "Stories",
-    "LAB": "Lab",
-    "UNDERLINE": "We carry out IT consultancy assignments and we develop your strategic applications... <span>In the javascript way.</span>",
-    "CONTACTUS": "Contact us",
-    "EMAILUS": "Email us at contact@redplicans.com",
-    "TALKUS": "Want to talk to us about your project?"
-  },
   "HOME": {
+    "SPLASH": {
+      "CATCH": "Full Stack Javascript Company",
+      "MISSION": "We are dedicated to helping businesses succeed with full stack javascript through strategic consulting and support."
+    },
+    "UNDERLINE": "We carry out IT consultancy assignments and we develop your strategic applications... <span>In the javascript way.</span>",
     "NOSQL": {
       "H": "NoSQL",
-      "P": "Never since the devising of gunpowder was the beginning of a battle so still. To us and to an observer about Ripley it would have had precisely the same effect."
+      "P": "NoSQL databases, like MongoDB, the leading solution, evolve businesses to be more agile, cost effective and perfectly scalable to satisfy big data needs."
     },
     "DATAVISUALIZATION": {
       "H": "Data-Visualization",
-      "P": "Never since the devising of gunpowder was the beginning of a battle so still. To us and to an observer about Ripley it would have had precisely the same effect."
+      "P": "Data is the new oil, D3 the solution to enlighten your web applications, reports, financial dashboard and quant tools in a HTML5 manner."
     },
     "FRONTEND": {
       "H": "Rich Web Application",
-      "P": "Never since the devising of gunpowder was the beginning of a battle so still. To us and to an observer about Ripley it would have had precisely the same effect."
+      "P": "Today's HTML5 framework like AngularJS provides a robust set of features for building single and multi-page web applications extraordinarily expressive, readable, and quick to develop."
     },
     "BACKEND": {
       "H": "Application server",
-      "P": "Never since the devising of gunpowder was the beginning of a battle so still. To us and to an observer about Ripley it would have had precisely the same effect."
+      "P": "Node.js is a platform built on Google's JavaScript runtime for easily building fast, scalable, cost effective network applications, capable of delivering better results than existing web framwork or legacy application server."
     },
     "CONSULTING": {
       "H": "Consulting",
-      "P": "Never since the devising of gunpowder was the beginning of a battle so still. To us and to an observer about Ripley it would have had precisely the same effect."
+      "P": "You want to benefit from Full Stack Javascript solutions with some guidances ? RedPelicans will help you to turn your ideas into reality, thanks to the pertinence and the expertise of its consultants."
     }
   },
   "SERVICES": {
-    "UNDERLINE": "Our Offer"
-  , "HOME": {
-      "DESCRIPTION": {
-        "P1": "L’objet de RedPelicans est de promouvoir la construction de Systèmes d’Information à base de solutions open source et plus particulièrement autour de solutions Javascript."
-      , "P2": "Vous souhaitez profiter des solutions Mongodb, Nodejs, AngularJS et D3, mais préférez être accompagnés, RedPelicans est présent et à votre service pour vous faire profiter de l’expérience de ses consultants."
-      , "P3": "Les associés de RedPelicans comptabilisent plus de 30 ans d’expérience dans les métiers de l’informatique liés à la finance dont 20 de directions informatiques au sein d’acteurs majeurs. C’est cette expérience que RedPelicans vous offre."
+    "SPLASH": {
+      "CATCH": "We offer you solutions that really work"
+    , "MISSION": "We rely on Open Source and Javascript technologies to bring you efficient and powerful Information Systems which make the difference in your business."
+    },
+    "CONSULTING": {
+      "H": "Our Offer",
+      "CONTENT": {
+        "P1": "Never since the devising of gunpowder was the beginning of a battle so still. To us and to an observer about Ripley it would have had precisely the same effect.",
+        "P2": "Never since the devising of gunpowder was the beginning of a battle so still. To us and to an observer about Ripley it would have had precisely the same effect.",
+        "P3": "Never since the devising of gunpowder was the beginning of a battle so still. To us and to an observer about Ripley it would have had precisely the same effect."
       }
-    , "LIST": {
-        "P": "Nous mettons à votre disposition nos ingénieurs en forfait ou en régie pour satisfaire vos besoins:"
-      , "LI0": "Urbanisation du Système d’Information"
-      , "LI1": "Rédaction de cahiers des charges"
-      , "LI2": "Pilotage de projets"
-      , "LI3": "Organisation du processus déveveloppement (agilité, intégration continue)"
-      , "LI4": "Choix de solutions (benchmark et prototypage)"
-      , "LI5": "Développement d’applications web et mobiles"
-      , "LI6": "Portage de solutions vers des technologies web"
-      , "LI7": "Sauvetage de projets"
-      , "LI8": "Data-Visualisation"
+    },
+    "NOSQL": {
+      "H": "NoSQL",
+      "P": "MongoDB",
+      "CONTENT": {
+        "P1": "Never since the devising of gunpowder was the beginning of a battle so still. To us and to an observer about Ripley it would have had precisely the same effect.",
+        "P2": "Never since the devising of gunpowder was the beginning of a battle so still. To us and to an observer about Ripley it would have had precisely the same effect.",
+        "P3": "Never since the devising of gunpowder was the beginning of a battle so still. To us and to an observer about Ripley it would have had precisely the same effect."
+      }
+    },
+    "DATAVISUALIZATION": {
+      "H": "Data-Visualization",
+      "P": "D3JS",
+      "CONTENT": {
+        "P1": "Never since the devising of gunpowder was the beginning of a battle so still. To us and to an observer about Ripley it would have had precisely the same effect.",
+        "P2": "Never since the devising of gunpowder was the beginning of a battle so still. To us and to an observer about Ripley it would have had precisely the same effect.",
+        "P3": "Never since the devising of gunpowder was the beginning of a battle so still. To us and to an observer about Ripley it would have had precisely the same effect."
+      }
+    },
+    "FRONTEND": {
+      "H": "Rich Web Application",
+      "P": "AngularJS",
+      "CONTENT": {
+        "P1": "Never since the devising of gunpowder was the beginning of a battle so still. To us and to an observer about Ripley it would have had precisely the same effect.",
+        "P2": "Never since the devising of gunpowder was the beginning of a battle so still. To us and to an observer about Ripley it would have had precisely the same effect.",
+        "P3": "Never since the devising of gunpowder was the beginning of a battle so still. To us and to an observer about Ripley it would have had precisely the same effect."
+      }
+    },
+    "BACKEND": {
+      "H": "Application server",
+      "P": "NodeJS",
+      "CONTENT": {
+        "P1": "Never since the devising of gunpowder was the beginning of a battle so still. To us and to an observer about Ripley it would have had precisely the same effect.",
+        "P2": "Never since the devising of gunpowder was the beginning of a battle so still. To us and to an observer about Ripley it would have had precisely the same effect.",
+        "P3": "Never since the devising of gunpowder was the beginning of a battle so still. To us and to an observer about Ripley it would have had precisely the same effect."
       }
     }
   }
